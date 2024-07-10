@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <link rel="stylesheet" href="../css/contact-us.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg  w-100  navbar-fluid mt-0 fixed-top">
+    <div class="container-fluid ">
+
+      <img src="../images/logo.png" id="logo" alt="" width="130px" height="60px" >
+
+      <button class="navbar-toggler bg-white"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list"></i>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item ms-2">
+            <a class="nav-link fw-bold fs-6" href="index.html">Home</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link fs-6" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item ms-2 ">
+            <a class="nav-link fs-6" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item ms-2 ">
+            <a class="nav-link fs-6" href="cart.html">
+              <i class="bi bi-cart"></i>Cart<span class="count"> 0</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<div class="container-fluid section-1">
+    <div class="row">
+        <div class="col-lg-12 pt-5 pb-5">
+            <h1>Get in touch with<br> Web Development Design</h1>
+            <p>Web Development Design is the world’s #1 online bootcamp and one of the world’s leading certification training providers. We partner with companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid section-2">
+    <div class="row">
+
+        <div class="col-lg-6 mt-5">
+            <h3>Contact with us</h3>
+            <p>Want to get in touch ? We'd love to hear you.Here's how you can reach us...</p>
+        </div>
+        <div class="col-lg-6 mt-5 ">
+           <img src="../images/contact111.jpg" width="400" height="250">
+        </div>
+
+    <div class="col-lg-6 text-center">
+    <div class="card float-end bg-body-tertiary" style="width: 18rem;">
+    <i class="bi bi-telephone-outbound-fill"></i>
+    <div class="card-body">
+    <h5 class="card-title">Give us a call</h5>
+    <p class="card-text">(+355)68 343 1133 or<br>855-277-4456</p>
+    <p>24/7</p>
+    <a href="https://www.viber.com/">Call us now</a>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="col-lg-6 text-center">
+    <div class="card float-start bg-body-tertiary" style="width: 18rem;">
+     <i class="bi bi-chat-dots-fill"></i>
+    <div class="card-body">
+    <h5 class="card-title">Chat with us</h5>
+    <p class="card-text">Click here to start<br>chatting with us</p>
+    <p>24/7</p> 
+    <a href="https://messages.google.com/web/authentication">Chat with us</a>
+    </div>
+</div>
+         </div>
+    </div>
+    </div>
+
+
+
+    <div class="container-fluid section-3" id="section-3">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+
+          <h1 class="fw-bolder">Sign Up</h1>
+          <form class="left" id="form">
+            
+            <span style="color:red" id="name_error"></span>
+            <input type="text" id="name" class="form-fields" placeholder="Your Name">
+            <span style="color:red" id="lastname_error"></span>
+            <input type="text" id="lastname" class="form-fields" placeholder="Your Lastname">
+            <span style="color:red" id="email_error"></span>
+            <input type="email" id="email" class="form-fields" placeholder="Your Email">
+            <span style="color:red" id="password_error"></span>
+            <input type="password" id="password" class="form-fields" placeholder="Your Password">
+            <span style="color:red" id="phone_number_error"></span>
+            <input type="name" id="phone_number" class="form-fields" placeholder="Phone Number">
+           
+            <span style="color:red" id="job_error"></span>
+            <select id="job-title" class="form-fields">
+              <option value="Job Title">Job Title</option>
+              <option value="1">IT</option>
+              <option value="2">Web Designer</option>
+              <option value="3">Cybersecurity</option>
+          </select>
+          <span style="color:red" id="textarea_error"></span>
+          <textarea name="comment" id="textarea" class="form-fields" placeholder="Describe your experience" rows="5"
+          cols="20"></textarea>
+          
+          <button type="submit" class="btn mt-4">Submit</button>
+
+      <div class="form-check">
+        <p style="color:red" id="checkbox_error"></p>
+        <input class="form-check-input" type="checkbox" value="" id="checkbox">
+        <label class="form-check-label" for="checkbox">
+          <p class="fw-bolder">I agree to privacy police</p>
+        </label>
+      </div>
+      </form>
+
+          </div>
+
+        <div class="col-lg-3 col-sm-6">
+
+          <div class="right mt-5">
+
+          <div class="min">
+            <label for="toggle-1" class="label"><i class="bi bi-person "></i><span
+                    class="ic"></span>FirstName</label> <br>
+            <input type="checkbox" class="switch_1" id="toggle-1" onclick="funcToggle1()">
+        </div>
+        <div class="min">
+            <label for="toggle-2" class="label"><i class="bi bi-person "></i><span
+                    class="ic"></span>LastName</label><br>
+            <input type="checkbox" class="switch_1" id="toggle-2" onclick="funcToggle2()">
+        </div>
+        <div class="min">
+            <label for="toggle-3" class="label"><i class="bi bi-envelope-at"></i><span
+                    class="ic"></span>Email</label><br>
+            <input type="checkbox" class="switch_1" id="toggle-3" onclick="funcToggle3()">
+        </div>
+        <div class="min">
+          <label for="toggle-4" class="label"><i class="bi bi-file-lock"></i><span
+                  class="ic"></span>Password</label><br>
+          <input type="checkbox" class="switch_1" id="toggle-4" onclick="funcToggle4()">
+      </div>
+        <div class="min">
+            <label for="toggle-5" class="label"><i class="bi bi-phone"></i><span
+               class="ic"></span>PhoneNumber</label><br>
+            <input type="checkbox" class="switch_1" id="toggle-5" onclick="funcToggle5()">
+        </div>
+        <div class="min">
+            <label for="toggle-6" class="label"><i class="bi bi-award"></i><span 
+              class="ic"></span>Job Title</label><br>
+            <input type="checkbox" class="switch_1" id="toggle-6" onclick="funcToggle6()">
+        </div>
+        <div class="min">
+            <label for="toggle-7" class="label"><i class="bi bi-chat-left"></i><span
+              class="ic"></span>Comments</label><br>
+            <input type="checkbox" class="switch_1" id="toggle-7" onclick="funcToggle7()">
+        </div>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="row">
+
+            <div class="col-lg-4 mt-2">
+                <h3 class="ms-3">Bussines Hours</h3>
+                <p class="ms-3 fw-bolder">Monday-Friday</p>
+                <p class="ms-3 fw-bolder">8:00am-5:00pm</p>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+                <h3>Office</h3>
+                <p class="ms-3 fw-bolder">116 HCEB</p>
+                <p class="ms-3 fw-bolder">Local:801-422-8925</p>
+                <p class="ms-3 fw-bolder">Toll-free:1-877-221-6716</p>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+              <h3>Sponsored by</h3>
+              <div class="col-lg-6">
+                <img src="../images/myob.jpg" class="images">
+                <img src="../images/lilly.jpg" class="images">
+                <img src="../images/life.jpg"  class="images">
+              </div>
+          </div>
+
+            
+          <div class="col-lg-5 ms-3">
+            <img src="../images/logo.png" alt="" width="130px" height="80" class="footer-logo">
+          </div>
+
+            <div class="col-lg-6 ms-2 mt-3">
+              <ul class="list-inline">
+                <li class="list-inline-item me-5"><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
+                <li class="list-inline-item me-5"><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-inline-item me-5"><a href="https://www.tiktok.com/"><i class="bi bi-tiktok"></i></a></li>
+                <li class="list-inline-item me-5"><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
+                <li class="list-inline-item me-5"><a href="https://www.twitter.com/"><i class="bi bi-twitter"></i></a></li>
+              </ul>
+          </div>
+
+
+            <div class="col-lg-12 text-center mt-1">
+              <p class="footer-Year"><span id="footer-Year"></span> © Tirane, All Rights Reserved</p>
+            </div>
+
+        </div>
+    </div>
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../javascript/contact-form.js"></script>
+    <script src="../javascript/index.js" defer></script>
+    <script src="../javascript/index-date.js"></script>
+</body>
+</html>
